@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Artigo do acervo da UEP Cândido Pinto." />
+    <title>Artigo | UEP Cândido Pinto</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="topline">
+        <span>Acervo UEP Cândido Pinto</span>
+        <span>Artigos antigos dentro do portal</span>
+      </div>
+
+      <div class="masthead">
+        <a class="brand" href="index.html" aria-label="Página inicial da UEP">
+          <img src="assets/logo-uep.jpg" alt="Marca da UEP Cândido Pinto" />
+          <span>
+            <small>União dos Estudantes de Pernambuco</small>
+            <strong>UEP Cândido Pinto</strong>
+          </span>
+        </a>
+
+        <div class="header-actions" aria-label="Ações rápidas">
+          <a href="jornais/jornal-uep-outubro-2025.pdf" download>Baixar jornal</a>
+          <a class="header-cta" href="https://linktr.ee/uepoficial" target="_blank" rel="noreferrer">
+            Fazer carteirinha
+          </a>
+        </div>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="visually-hidden">Abrir menu</span>
+        </button>
+      </div>
+
+      <nav class="main-nav" id="menu-principal" aria-label="Menu principal">
+        <a href="index.html#posts">Artigos</a>
+        <a href="index.html#editorias">Editorias</a>
+        <a href="index.html#carteirinha">Carteirinha</a>
+        <a href="index.html#jornais">Edição impressa</a>
+        <a href="index.html#redes">Redes</a>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <article class="article-page" id="article-page" aria-live="polite">
+        <p class="section-label">Acervo</p>
+        <h1>Carregando artigo</h1>
+      </article>
+
+      <section class="related-section" aria-labelledby="relacionados-titulo">
+        <div class="section-heading">
+          <p class="section-label">Leia também</p>
+          <h2 id="relacionados-titulo">Outros artigos do acervo</h2>
+        </div>
+        <div class="related-grid" id="related-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>UEP Cândido Pinto</strong>
+        <span>União dos Estudantes de Pernambuco</span>
+      </div>
+      <nav aria-label="Rodapé">
+        <a href="index.html">Portal</a>
+        <a href="index.html#jornais">Jornais</a>
+        <a href="https://www.instagram.com/uepoficial/" target="_blank" rel="noreferrer">Instagram</a>
+      </nav>
+    </footer>
+
+    <script src="artigos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
